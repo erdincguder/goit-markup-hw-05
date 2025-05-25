@@ -571,3 +571,17 @@ h3 {
 .submit-form:hover {
   background-color: var(--ocean);
 }
+.fixed-contact-form {
+  width: 408px;
+  height: 584px;
+  background-color: green;
+  position: absolute;
+  top: 80px;
+  left: 754px;
+  right: 50%;
+  z-index: 1;
+}
+.icon-close-black {
+  width: 8px;
+  height: 8px;
+}
