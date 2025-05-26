@@ -585,3 +585,20 @@ h3 {
   width: 8px;
   height: 8px;
 }
+.btn-close {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: var(--cornflower);
+  margin: 24px 24px;
+}
+.contact-form-text {
+  width: 360px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  margin: 0 auto;
+}
