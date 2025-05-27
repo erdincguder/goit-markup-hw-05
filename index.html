@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <div class="container">
       <header>
@@ -485,40 +486,64 @@
               <p class="footer-contact-text">Subscribe</p>
               <form class="footer-contact-form">
                 <label class="footer-form-label">
-                  <input class="form-input-mail"
+                  <input
+                    class="form-input-mail"
                     type="email"
                     name="contact-mail"
                     placeholder="E-mail"
                   />
                 </label>
-                <button type="submit" class="submit-form">Subscribe
+                <button type="submit" class="submit-form">
+                  Subscribe
                   <svg class="icon icon-frame">
                     <use xlink:href="./images/icons.svg#icon-frame"></use>
                   </svg>
+                </button>
               </form>
             </div>
           </div>
         </footer>
       </div>
       <div class="fixed-contact-form">
-        <button class="btn-close" type="button">
+        <!-- <button class="btn-close" type="button">
           <svg class="icon icon-close-black">
             <use xlink:href="./images/icons.svg#icon-close-black"></use>
           </svg>
-          <p class="contact-form-text">Leave your contacts and we will call you back</p>
-          <div class="contact-form-contents">
-            <form class="contact-form">
-              <label class="contact-form-label">Name</label>
-              <input type="text" class="contact-form-input" name="name">
-              <label class="contact-form-label">Phone</label>
-              <input type="tel" class="contact-form-input"  name="phone">
-              <label class="contact-form-label">Email</label>
-              <input type="email" class="contact-form-input"  name="email">
-              <label class="contact-form-label">Comment</label>
-              <textarea name="comment" class="contact-form-input"></textarea>
-              <input type="checkbox" name="accept" class="contact-form-checkbox">I accept the terms and conditions of the Privacy Policy
-            </form>
-          </div>
+        </button> -->
+        <p class="contact-form-text">
+          Leave your contacts and we will call you back
+        </p>
+        <div class="contact-form-contents">
+          <form class="contact-form">
+            <label class="contact-form-label">Name</label>
+            <input type="text" class="contact-form-input" name="name" />
+            <label class="contact-form-label">Phone</label>
+            <input type="tel" class="contact-form-input" name="phone" />
+            <label class="contact-form-label">Email</label>
+            <input type="email" class="contact-form-input" name="email" />
+            <label class="contact-form-label">Comment</label>
+            <textarea name="comment" class="contact-form-comment"></textarea>
+            <div class="contact-form-bottom">
+              <label>
+                <input
+                  type="checkbox"
+                  name="accept"
+                  class="contact-form-checkbox"
+                />
+                <span class="contact-form-accept-text"
+                  >I accept the terms and conditions of the<span
+                    class="contact-form-privacy"
+                  >
+                    Privacy Policy</span
+                  ></span
+                >
+              </label>
+            </div>
+            <div class="contact-form-button">
+              <button class="btn-contact-form" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </body>
