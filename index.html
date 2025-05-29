@@ -572,13 +572,40 @@
           Leave your contacts and we will you call back
         </p>
         <form action="" class="form-contact">
-          <label for="name" name="name"
-            >Name
-            <input type="text" name="name" id="name" />
+          <div class="form-input-box">
+            <label class="form-label" for="name" name="name">Name</label>
+            <input class="form-input" type="text" name="name" id="name" />
             <svg class="icon icon-person-black">
               <use xlink:href="./images/icons.svg#icon-person-black"></use>
             </svg>
-          </label>
+          </div>
+          <div class="form-input-box">
+            <label class="form-label" for="phone" name="phone">Phone </label>
+            <input class="form-input" type="tel" name="phone" id="phone" />
+            <svg class="icon icon-phone-black">
+              <use xlink:href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+          </div>
+          <div class="form-input-box">
+            <label class="form-label" for="email" name="email">Email</label>
+            <input class="form-input" type="email" name="email" id="email" />
+            <svg class="icon icon-email-black">
+              <use xlink:href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+          </div>
+          <div class="form-comment-box">
+            <label class="form-label" for="comment" name="comment"
+              >Comment</label
+            >
+            <textarea
+              class="form-comment"
+              name="comment"
+              id="comment"
+              cols=""
+              rows=""
+              placeholder="Text input"
+            ></textarea>
+          </div>
         </form>
       </div>
     </div>
