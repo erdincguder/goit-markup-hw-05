@@ -793,6 +793,7 @@ h3 {
   resize: none;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 16px;
 }
 .form-input-box {
   position: relative;
@@ -851,9 +852,10 @@ h3 {
   fill: transparent;
   margin-right: 8px;
 }
-.icon-vector-black {
+.icon-vector {
   width: 10px;
   height: 8px;
+ 
 }
 .accept-text {
   font-family: var(--font-family);
@@ -904,5 +906,21 @@ h3 {
   letter-spacing: 0.04em;
   color: var(--navy-blue-modal);
   padding-top: 8px;
-  padding-left: 16px;
+}
+.hidden-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.checkbox:checked + .form-label .form-checkbox-icon {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
